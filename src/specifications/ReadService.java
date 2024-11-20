@@ -12,13 +12,13 @@ import tools.Sound;
 import java.util.ArrayList;
 
 public interface ReadService {
-  public Position getHeroesPosition();
-  public double getHeroesWidth();
-  public double getHeroesHeight();
-  public double getPhantomWidth();
-  public double getPhantomHeight();
-  public int getStepNumber();
-  public int getScore();
-  public ArrayList<PhantomService> getPhantoms();
-  public Sound.SOUND getSoundEffect();
+  Position getHeroesPosition();
+  double getHeroesWidth();
+  double getHeroesHeight();
+  double getPhantomWidth();
+  double getPhantomHeight();
+  int getStepNumber();
+  int getScore();
+  ArrayList<PhantomService> getPhantoms();
+  Sound.SOUND getSoundEffect();
 }

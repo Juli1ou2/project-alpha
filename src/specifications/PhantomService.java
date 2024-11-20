@@ -9,9 +9,9 @@ package specifications;
 import tools.Position;
 
 public interface PhantomService{
-  public enum MOVE { LEFT, RIGHT, UP, DOWN };
+  enum MOVE { LEFT, RIGHT, UP, DOWN }
 
-  public Position getPosition();
-  public MOVE getAction();
-  public void setPosition(Position p);
+    Position getPosition();
+  MOVE getAction();
+  void setPosition(Position p);
 }

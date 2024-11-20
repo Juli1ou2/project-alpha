@@ -7,5 +7,5 @@
 package specifications;
 
 public interface RequirePhantomService {
-  public void bindPhantomService(PhantomService service);
+  void bindPhantomService(PhantomService service);
 }

@@ -12,10 +12,10 @@ import tools.Sound;
 import java.util.ArrayList;
 
 public interface WriteService {
-  public void setHeroesPosition(Position p);
-  public void setStepNumber(int n);
-  public void addPhantom(Position p);
-  public void setPhantoms(ArrayList<PhantomService> phantoms);
-  public void setSoundEffect(Sound.SOUND s);
-  public void addScore(int score);
+  void setHeroesPosition(Position p);
+  void setStepNumber(int n);
+  void addPhantom(Position p);
+  void setPhantoms(ArrayList<PhantomService> phantoms);
+  void setSoundEffect(Sound.SOUND s);
+  void addScore(int score);
 }
