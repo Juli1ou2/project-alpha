@@ -13,7 +13,7 @@ public class HardCodedParameters {
                           heroesStartX = 80, heroesStartY = 200, heroesWidth=60, heroesHeight=90, heroesStep = 10,
                           phantomWidth = 30, phantomHeight = 30, phantomStep = 10;
   public static final int enginePaceMillis = 100,
-                          spriteSlowDownRate = 7;
+                          spriteSlowDownRate = 6;
   public static final double friction = 0.50;
   public static final double resolutionShrinkFactor = 0.95,
                              userBarShrinkFactor = 0.25,
