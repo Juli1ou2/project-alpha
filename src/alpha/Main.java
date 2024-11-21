@@ -70,20 +70,20 @@ public class Main extends Application{
     scene.setOnKeyPressed(new EventHandler<KeyEvent>(){
       @Override
         public void handle(KeyEvent event) {
-          if (event.getCode()==KeyCode.LEFT) engine.setHeroesCommand(User.COMMAND.LEFT);
-          if (event.getCode()==KeyCode.RIGHT) engine.setHeroesCommand(User.COMMAND.RIGHT);
-          if (event.getCode()==KeyCode.UP) engine.setHeroesCommand(User.COMMAND.UP);
-          if (event.getCode()==KeyCode.DOWN) engine.setHeroesCommand(User.COMMAND.DOWN);
+          if (event.getCode()==KeyCode.Q) engine.setHeroesCommand(User.COMMAND.LEFT);
+          if (event.getCode()==KeyCode.D) engine.setHeroesCommand(User.COMMAND.RIGHT);
+          if (event.getCode()==KeyCode.Z) engine.setHeroesCommand(User.COMMAND.UP);
+          if (event.getCode()==KeyCode.S) engine.setHeroesCommand(User.COMMAND.DOWN);
           event.consume();
         }
     });
     scene.setOnKeyReleased(new EventHandler<KeyEvent>(){
       @Override
         public void handle(KeyEvent event) {
-          if (event.getCode()==KeyCode.LEFT) engine.releaseHeroesCommand(User.COMMAND.LEFT);
-          if (event.getCode()==KeyCode.RIGHT) engine.releaseHeroesCommand(User.COMMAND.RIGHT);
-          if (event.getCode()==KeyCode.UP) engine.releaseHeroesCommand(User.COMMAND.UP);
-          if (event.getCode()==KeyCode.DOWN) engine.releaseHeroesCommand(User.COMMAND.DOWN);
+          if (event.getCode()==KeyCode.Q) engine.releaseHeroesCommand(User.COMMAND.LEFT);
+          if (event.getCode()==KeyCode.D) engine.releaseHeroesCommand(User.COMMAND.RIGHT);
+          if (event.getCode()==KeyCode.Z) engine.releaseHeroesCommand(User.COMMAND.UP);
+          if (event.getCode()==KeyCode.S) engine.releaseHeroesCommand(User.COMMAND.DOWN);
           event.consume();
         }
     });
